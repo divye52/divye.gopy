@@ -1,1 +1,14 @@
+import (
+    "sort"
+)
 
+func sortIntArray(arr []int) []int {
+    // Create a copy of the input array to avoid modifying the original.
+    sortedArr := make([]int, len(arr))
+    copy(sortedArr, arr)
+
+    // Use Go's built-in sorting function.
+    sort.Ints(sortedArr)
+
+    return sortedArr
+}
