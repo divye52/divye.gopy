@@ -1,1 +1,6 @@
-
+func main() {
+    // Example usage:
+    inputArr := []int{5, 2, 9, 1, 5, 6}
+    sortedArr := sortIntArray(inputArr)
+    fmt.Println(sortedArr)
+}
