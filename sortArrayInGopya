@@ -7,7 +7,7 @@ func sortIntArray(arr []int) []int {
     sortedArr := make([]int, len(arr))
     copy(sortedArr, arr)
 
-    // Use Go's built-in sorting function.
+  
     sort.Ints(sortedArr)
 
     return sortedArr
